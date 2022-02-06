@@ -89,10 +89,6 @@ In this section, you will assess the financial health of the credit union's memb
 
 2. To analyze savings health, create a DataFrame called `df_savings` with two rows. Store the total value in dollars of the crypto assets in the first row and the total value of the shares in the second row.
 
-    **Hint:** The `df_savings` DataFrame should have one column named `amount` and two rows where `crypto` and `shares` are the index values: 
-    
-    ![df_savings](Images/df_savings.png)
-
 3. Use the `df_savings` DataFrame to plot a pie chart to visualize the composition of personal savings.
 
 4. Use `if` conditional statements to validate if the current savings are enough for an emergency fund. An ideal emergency fund should be equal to three times your monthly income.
@@ -118,10 +114,6 @@ Follow the steps outlined in the starter notebook to complete the following:
 2. Configure and execute a Monte Carlo Simulation of `500` runs and `30` years for the `40/60` portfolio.
 
 3. Plot the simulation results and the probability distribution/confidence intervals.
-
-    ![monte carlo](Images/monte-carlo.png)
-        
-    ![histogram](Images/histogram.png)
 
 #### Retirement Analysis
 
@@ -204,8 +196,3 @@ Try adjusting the portfolio to either include more risk (a higher stock than bon
 ##### To receive all points, your code must:
 
 * Be well commented with concise, relevant notes that other developers can understand. (10 points)
-
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
